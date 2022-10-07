@@ -5,6 +5,13 @@
     font-family: sans-serif;
 }
 
+.restart {
+    height: 32px;
+    width: 64px;
+    margin-left: 920px;
+    margin-top: 25px;
+}
+
 .game {
     display: grid;
     grid-template-columns: repeat(3, 300px);
@@ -14,6 +21,7 @@
     position: relative;
     width: 920px;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 

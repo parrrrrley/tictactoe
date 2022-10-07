@@ -15,6 +15,11 @@ const state = {
     gameFinished: false
 }
 
+const restart = document.querySelector(".restart")
+restart.addEventListener("click", () => {
+    location.reload()
+})
+
 const drawBoard = () => {
     state.gameElement.innerHTML = ""
     for (let i = 0; i < 9; i++) {
